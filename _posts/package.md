@@ -90,7 +90,7 @@ main.go中输入以下内容
 假如我们只需要导入某个包，而不需要使用它。那么我们可以在import中这么写
 ```
   import (
-    _ "learnpackage/simpleinterest"
+    _ "learnpackage/simpleinterest" //这样就不会报错了
     "log"
   )
 ```
